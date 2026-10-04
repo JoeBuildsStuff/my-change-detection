@@ -20,10 +20,7 @@ import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { SidebarLogo } from "@/components/app-sidebar-logo"
 
-
 import Link from "next/link"
-
-
 
 export function AppSidebar() {
   const pathname = usePathname()
